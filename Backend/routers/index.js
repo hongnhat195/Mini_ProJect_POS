@@ -1,0 +1,15 @@
+const express = require("express");
+const { adminRouter } = require("./admin.router.js");
+const { customerRouter } = require("./customer.router.js");
+const { foodRouter } = require("./food.router.js");
+const { orderRouter } = require("./order.router.js");
+const { categoryRouter } = require("./category.router.js");
+const analystRouter = require("./analyst.router.js");
+const rootRouter = express.Router();
+rootRouter.use("/security/admin", adminRouter);
+rootRouter.use("/customer", customerRouter);
+rootRouter.use("/food", foodRouter);
+rootRouter.use("/order", orderRouter);
+rootRouter.use("/category", categoryRouter);
+rootRouter.use("/analyst", analystRouter);
+module.exports = rootRouter;

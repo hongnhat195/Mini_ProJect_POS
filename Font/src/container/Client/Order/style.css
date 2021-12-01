@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+.orderPage {
+  padding: 100px 0;
+  font-size: 16px;
+}
+
+.orderPage__title {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #000;
+}

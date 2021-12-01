@@ -1,0 +1,10 @@
+.cart-area {
+  background-color: #faf7f2;
+  padding-top: 50px;
+}
+.table {
+  font-size: 1rem !important;
+  text-align: center;
+  background-color: orange;
+  border-radius: 0.8rem;
+}
